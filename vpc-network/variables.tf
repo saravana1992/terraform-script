@@ -5,19 +5,19 @@
 
 variable "project" {
   description = "The project ID for the network"
-  default = "variable01"
+  default = "terraform-script"
   type        = string
 }
 
 variable "region" {
   description = "The region for subnetworks in the network"
-  default = "variable02"
+  default = "us-west-1"
   type        = string
 }
 
 variable "name_prefix" {
   description = "A name prefix used in resource names to ensure uniqueness across a project."
-  default = "variable03"
+  default = "test"
   type        = string
 }
 
